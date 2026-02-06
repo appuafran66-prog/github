@@ -1,0 +1,11 @@
+git status // shows current repo state (modified, staged, untracked)
+git add <file> // stages a specific file for commit
+git add . // stages all changes in the current folder
+git commit -m "message" // creates a commit with a message
+git log --oneline // shows commit history in short form
+git branch // lists local branches
+git checkout -b <branch> // creates and switches to a new branch
+git checkout <branch> // switches to an existing branch
+git merge <branch> // merges the named branch into the current branch
+git pull origin main // fetches and merges latest changes from remote main
+git push origin main // pushes your local main commits to the remote
